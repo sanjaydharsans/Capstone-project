@@ -1,0 +1,41 @@
+
+form {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #5ccbed;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgb(70, 60, 60);
+    color: #fff;
+  }
+  form button {
+    position: absolute;
+    right: 18px;
+    top: 130px;
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 65px;
+    height: 30px;
+    cursor: pointer;
+  }
+  form input,form textarea {
+    width: 100%;
+    border: none;
+    padding: 6px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    background: #5ccbed;
+    color: #fff;
+  }
+  
+  .tile{
+    display: flex;
+    justify-content: center;
+ }
+ #ab{
+  color: #fff;
+ }
